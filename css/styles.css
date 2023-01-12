@@ -185,6 +185,20 @@ address {
 
 /* -------------Hero styles------------- */
 
+.hero-background {
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url('../images/dark-bg.svg'), url('../images/people-office.jpg'); */
+  /* background-image: linear-gradient(to right, orange, red); */
+  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-bg.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .hero {
   height: 600px;
   padding-bottom: 188px;
@@ -221,7 +235,9 @@ address {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-color: transparent;
   cursor: pointer;
-  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  padding: 16px 32px 16px 32px;
 
   outline: var(--outline);
 }
@@ -363,6 +379,17 @@ address {
 .team-photo {
   display: block;
 }
+
+/* ---------------Customers-------------- */
+
+.customers-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  outline: var(--outline);
+}
+
+
 
 /* ----------------Footer ----------*/
 
