@@ -331,6 +331,8 @@ address {
 /* .img-item:not(:last-child) {
   margin-right: 24px;
 } */
+
+
 /* --------------------Team--------- */
 
 .team-section {
@@ -614,7 +616,6 @@ color: #FFFFFF;
   row-gap: 48px;
   /* margin-right: 24px;
   margin-bottom: 48px; */
-
   width: 360px;
 
   outline: var(--outline);
@@ -637,6 +638,7 @@ color: #FFFFFF;
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 
   border-right-width: 1px;
   border-right-style: solid;
@@ -652,6 +654,21 @@ color: #FFFFFF;
 
   outline: var(--outline);
 }
+
+.portfolio-link {
+  color: #434455;
+}
+
+
+.portfolio-cards:is(:hover, :focus) {
+  border-bottom: 0.5px solid #F4F4FD;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/* .portfolio-link:is(:hover, :focus) {
+  border-bottom: 0.5px solid #F4F4FD;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+} */
 
 .portfolio-subtitle {
   margin: 0;
