@@ -36,8 +36,6 @@ address {
   padding: 0;
   margin: 0;
   list-style: none;
-
-  outline: var(--outline);
 }
 .visually-hidden {
   position: absolute;
@@ -66,8 +64,6 @@ address {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: var(--outline);
 }
 .header-box {
   display: flex;
@@ -87,8 +83,6 @@ address {
   font-size: 18px;
   line-height: 1.3;
   text-decoration: none;
-
-  outline: var(--outline);
 }
 
 .logo-accent {
@@ -113,8 +107,6 @@ address {
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: var(--typical-ls);
-
-  outline: var(--outline);
 }
 
 .site-nav-link {
@@ -162,8 +154,6 @@ address {
   font-size: 16px;
   line-height: var(--typical-lh);
   font-style: normal;
-
-  outline: var(--outline);
 }
 
 .contacts-link:hover,
@@ -206,8 +196,6 @@ address {
   background-color: var(--second--text-color);
   color: #ffffff;
   text-align: center;
-
-  outline: var(--outline);
 }
 
 .hero-title {
@@ -219,8 +207,6 @@ address {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: var(--typical-ls);
-
-  outline: var(--outline);
 }
 
 .button {
@@ -237,8 +223,6 @@ address {
   width: 169px;
   height: 56px;
   padding: 16px 32px 16px 32px;
-
-  outline: var(--outline);
 }
 
 .button:hover,
@@ -263,8 +247,6 @@ address {
   line-height: 1.2;
   letter-spacing: var(--typical-ls);
   color: var(--second--text-color);
-
-  outline: var(--outline);
 }
 .sections-text {
   margin: 0;
@@ -274,8 +256,6 @@ address {
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: var(--typical-ls);
-
-  outline: var(--outline);
 }
 
 .features-list {
@@ -312,8 +292,6 @@ address {
   text-transform: capitalize;
   color: var(--second--text-color);
   text-align: center;
-
-  outline: var(--outline);
 }
 .doing-img {
   display: flex;
@@ -338,8 +316,6 @@ address {
   padding-bottom: 120px;
 
   background: #f4f4fd;
-
-  outline: var(--outline);
 }
 
 .team-title {
@@ -359,8 +335,6 @@ address {
     0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   width: 264px;
-
-  outline: var(--outline);
 }
 
 /* .team-cards:not(:last-child) {
@@ -419,8 +393,6 @@ address {
 .customers-section {
   padding-top: 120px;
   padding-bottom: 120px;
-
-  outline: var(--outline);
 }
 
 .customers-title {
@@ -471,8 +443,6 @@ address {
   padding-bottom: 100px;
   background-color: var(--second--text-color);
   height: 310px;
-
-  outline: var(--outline);
 }
 
 .logo-footer {
@@ -501,8 +471,6 @@ address {
   line-height: var(--typical-lh);
   letter-spacing: var(--typical-ls);
   color: #e7e9fc;
-
-  outline: var(--outline);
 }
 
 .footer-style {
@@ -587,8 +555,6 @@ color: #FFFFFF;
   line-height: var(--typical-lh);
   letter-spacing: 0.04em;
   cursor: pointer;
-
-  outline: var(--outline);
 }
 
 .portfolio-nav:hover,
@@ -616,8 +582,6 @@ color: #FFFFFF;
   /* margin-right: 24px;
   margin-bottom: 48px; */
   width: 360px;
-
-  outline: var(--outline);
 }
 
 /* .portfolio-cards:nth-child(3n) {
@@ -650,8 +614,6 @@ color: #FFFFFF;
   border-left-width: 1px;
   border-left-style: solid;
   border-left-color: #e7e9fc;
-
-  outline: var(--outline);
 }
 
 .portfolio-link {
@@ -660,7 +622,6 @@ color: #FFFFFF;
 }
 
 .portfolio-link:is(:hover, :focus) {
-  border-bottom: 0.5px solid #F4F4FD;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -672,8 +633,6 @@ color: #FFFFFF;
   line-height: 1.2;
   letter-spacing: var(--typical-ls);
   color: var(--second--text-color);
-
-  outline: var(--outline);
 }
 
 .portfolio-text {
@@ -683,8 +642,6 @@ color: #FFFFFF;
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: var(--typical-ls);
-
-  outline: var(--outline);
 }
 
 /* --------Contacts styles------------------ */
@@ -704,8 +661,6 @@ color: #FFFFFF;
   text-transform: capitalize;
   color: var(--second--text-color);
   text-align: center;
-
-  outline: var(--outline);
 }
 
 .contacts-item-cont {
@@ -733,6 +688,4 @@ color: #FFFFFF;
   display: block;
   width: 1128px;
   height: 300px;
-
-  outline: var(--outline);
 }
